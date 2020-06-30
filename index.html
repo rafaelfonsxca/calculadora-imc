@@ -27,7 +27,7 @@
             <div class="input-group-prepend">
                 <div class="input-group-text"><i class="fas fa-weight"></i></i></div>
             </div>
-            <input class="form-control" type="text" placeholder="Ex: 65,4">
+            <input id="peso" class="form-control" type="text" placeholder="Ex: 65.4">
             <div class="input-group-append">
                 <span class="input-group-text">kg</span>
             </div>
@@ -36,26 +36,30 @@
             <div class="input-group-prepend">
                 <div class="input-group-text"><i class="fas fa-text-height"></i></i></div>
             </div>
-            <input class="form-control" type="text" placeholder="Ex: 170">
+            <input id="altura" class="form-control" type="text" placeholder="Ex: 1.70">
             <div class="input-group-append">
-                <span class="input-group-text">cm</span>
+                <span class="input-group-text">mt</span>
             </div>
         </div>
         <div class="d-flex justify-content-end">
-            <button class="btn mr-2" type="button">Calcular</button>
-            <button class="btn" type="button">Limpar</button>
+            <button onclick="calcularImc()" class="btn mr-2" type="button">Calcular</button>
+            <button onclick="limpar()" class="btn" type="button">Limpar</button>
         </div>
     </form>
     <hr />
     <div class="resultado">
         <div class="imc-imc-resultado">
             <span>Seu IMC é: </span>
-            <span class="imc"></span>
+            <span id="imc" class="imc"></span>
         </div>
         <div class="imc-resultado-texto">
-            <span class="grau-imc"></span>
+            <span id="grau_imc" class="grau_imc"></span>
             <span><p class="texto"></p></span>
         </div>
     </div>
+    <footer>
+        <p class="fixed-bottom">Todos os direitos reservados &copy; <a href="https://github.com/rafaelfonsxca" target="_blank">Rafael Fonseca</a></p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
