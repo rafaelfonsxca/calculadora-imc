@@ -19,7 +19,7 @@ function calcularImc(){
         texto = "Você está com o seu índice de massa corporal um pouco acima do que deveria. Procure um nutricionista ou um especialista na área para saber como melhorar seu IMC."
     }else if(imc >= 30.0 && imc <= 39.9){
         grau_imc = "OBESIDADE"
-        texto = "Você apresenta um índice de massa corporal bem acima do que deveria, mas não se preocupe que não é anda grave. Procure um nutricionista ou um especialista na área para saber como melhorar seu IMC."
+        texto = "Você apresenta um índice de massa corporal bem acima do que deveria, mas não se preocupe que não é nada grave. Procure um nutricionista ou um especialista na área para saber como melhorar seu IMC."
     }else if(img > 40.0){
         grau_imc = "OBESIDADE GRAVE"
         texto = "Você apresenta um índice de massa corporal bem acima do que deveria que já chega a ser grave. Procure com urgência um nutricionista ou um especialista na área para saber como melhorar seu IMC."
