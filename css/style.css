@@ -56,3 +56,58 @@ span{
 .fa-text-height{
     font-size: 18px;
 }
+
+.imc-resultado-texto{
+    background-color: rgb(252, 247, 248);
+}
+
+.imc-imc-resultado{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.imc{
+    font-weight: bold;
+}
+
+.grau-imc{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.texto{
+    font-size: 1.3em;
+    line-height: 25px;
+    text-align: justify;
+}
+
+@media(max-width: 788px){
+    body{
+        width: 600px;
+    }
+}
+
+@media(max-width: 606px){
+    body{
+        width: 400px;
+        
+    }
+
+    form{
+        width: 380px;
+    }
+
+    header{
+        display: block;
+    }
+
+    img{
+        margin-left: 140px;
+    }
+}
