@@ -63,6 +63,8 @@ span{
 
 .imc-resultado-texto{
     background-color: rgb(252, 247, 248);
+    border-radius: 7px;
+    padding: 5px;
 }
 
 .imc-imc-resultado{
@@ -85,10 +87,11 @@ span{
     font-size: 2.4em;
 }
 
-#texto, .texto{
+#texto{
     font-size: 1.4em;
     line-height: 25px;
     text-align: justify;
+    text-indent: 1em;
     
 }
 
